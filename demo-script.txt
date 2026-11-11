@@ -1,0 +1,37 @@
+Fictional demo conversation — read both parts aloud at a natural pace. Pause briefly between turns.
+
+Clinician: Hello, I’m going to ask some questions about what brought you in today. This is a practice conversation for a transcription demo. Please tell me in your own words what has been bothering you.
+
+Patient: Hi. For about three weeks I’ve been getting a dull ache in the upper middle part of my stomach. It comes and goes. I notice it most often after dinner, especially if I eat a large meal. It is not severe, but it has been happening often enough that I thought I should ask about it.
+
+Clinician: Can you describe when it began and whether it is changing over time? Does it move anywhere, and what makes it better or worse?
+
+Patient: I first noticed it around three weeks ago. At first it happened once or twice a week, but during the last week it has happened on most evenings. I would call it a three out of ten. It stays in the upper middle area and does not spread to my back or chest. A large meal seems to make it worse. Eating a smaller meal and sitting upright afterward seems to help. I have not tried any medicine for it.
+
+Patient: Fried or spicy food seems to make it worse. A normal walk does not bring it on. It usually starts within an hour after dinner and has not woken me up at night.
+
+Clinician: Have you had nausea, vomiting, changes in appetite, trouble swallowing, heartburn, or changes in your bowel movements?
+
+Patient: I sometimes feel a little bloated after dinner. I have not vomited and I do not feel nauseated. My appetite is about the same. I have not had trouble swallowing. I do sometimes get a mild burning feeling behind the breastbone after spicy food, but not every day. My bowel movements have been normal for me.
+
+Clinician: Any fever, chills, yellowing of your skin or eyes, blood in your stool, black stool, or unexplained weight change?
+
+Patient: No fever or chills. I have not noticed yellow skin or eyes, and I have not seen blood or black stool. My weight has been stable. I have no chest pressure or shortness of breath. I can drink fluids and eat normally.
+
+Clinician: Have you experienced this kind of discomfort before? Do you have any ongoing medical conditions or have you had surgery or a hospital stay?
+
+Patient: I have had mild asthma since I was a teenager, but I rarely need my inhaler. I have never had this stomach discomfort for several weeks before. I have not had surgery and I have never been admitted to the hospital. I do not have diabetes or high blood pressure as far as I know.
+
+Clinician: What medicines or supplements do you take? Do you have any medication or food allergies?
+
+Patient: I use a salbutamol inhaler when I need it, maybe once every couple of months. I do not take a daily medicine. I take a basic multivitamin a few days a week, but I do not know the dose. I have no known medication allergies. I have not noticed any food causing an allergic reaction.
+
+Clinician: Do you use pain relievers, antacids, alcohol, tobacco, or anything else that might be useful for me to know?
+
+Patient: I take an occasional ibuprofen for a headache, probably once or twice a month, but I have not taken any for this stomach pain. I tried an over-the-counter antacid once last week, and the burning seemed to settle for a while, although the ache came back another evening. I drink one or two cups of coffee a day. I do not smoke, and I have a glass of wine maybe once a week.
+
+Clinician: Is there anything else about the symptoms that concerns you? What would you like help with today?
+
+Patient: I was mainly worried because it has become more frequent. I would like to understand what might be causing it and whether I should change anything while we look into it. I have not had sudden severe pain, fainting, or difficulty keeping food down.
+
+Clinician: Thank you. I will document the discomfort, the other symptoms and negatives you described, and your medical and medication history. This transcription and any summary are drafts and should be checked against the clinical record.

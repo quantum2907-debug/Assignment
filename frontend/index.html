@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Live medical transcription and structured clinical summary demo."
+    />
+    <title>Live Medical Transcription</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="page-heading">
+        <p class="eyebrow">CLINICAL WORKSPACE</p>
+        <h1>Medical visit assistant</h1>
+        <p>Transcribe a visit and review its structured clinical summary.</p>
+      </header>
+
+      <div class="workspace">
+        <section class="card transcription-card" aria-labelledby="transcription-title">
+          <div class="card-heading">
+            <div>
+              <p class="eyebrow">VOICE NOTES</p>
+              <h2 id="transcription-title">Live Medical Transcription</h2>
+            </div>
+            <span class="connection-badge" id="connection-badge"><span></span> Server disconnected</span>
+          </div>
+
+          <div class="button-row">
+            <button class="button button-primary" type="button" id="start-button">
+              Start Mic
+            </button>
+            <button class="button button-stop" type="button" id="stop-button" disabled>Stop</button>
+            <button class="button button-neutral" type="button" id="clear-transcript-button" disabled>
+              Clear
+            </button>
+            <button class="button button-save" type="button" id="save-button" disabled>
+              Save Recording
+            </button>
+          </div>
+
+          <div class="counter-row" aria-label="Transcript counters">
+            <span class="counter-badge">WORDS: <strong id="word-count">0</strong></span>
+            <span class="counter-badge">CHUNKS: <strong id="chunk-count">0</strong></span>
+          </div>
+
+          <div
+            class="transcript-box"
+            id="transcript"
+            role="log"
+            aria-live="polite"
+            aria-label="Live transcript"
+          ></div>
+
+          <div class="status-box">
+            <span class="status-dot" aria-hidden="true"></span>
+            <p id="status-message">
+              Ready - click Start Mic and speak naturally. VAD will auto-chunk your speech.
+            </p>
+          </div>
+
+          <button class="button button-process" type="button" id="process-button">
+            Process Transcript with AI
+          </button>
+          <p class="demo-note">
+            Processing sends the transcript to Gemini. Use only information permitted by your privacy policy.
+          </p>
+        </section>
+
+        <section class="card summary-card" aria-labelledby="summary-title">
+          <div class="card-heading summary-heading">
+            <div>
+              <p class="eyebrow">VISIT NOTES</p>
+              <h2 id="summary-title">AI Medical Summary</h2>
+            </div>
+            <button class="button button-clear-summary" type="button" id="clear-summary-button" disabled>
+              Clear
+            </button>
+          </div>
+
+          <div class="patient-line" id="patient-line"></div>
+          <div class="summary-content" id="summary-content"></div>
+          <button class="button button-process copy-button" type="button" id="copy-button" disabled>
+            Copy to Prescription
+          </button>
+        </section>
+      </div>
+      <footer class="page-footer">AI output may be incomplete or incorrect. Review it before clinical use.</footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

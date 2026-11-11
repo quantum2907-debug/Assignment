@@ -1,0 +1,6 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+faster-whisper==1.1.1
+webrtcvad-wheels==2.0.14
+google-genai==1.11.0
+python-dotenv==1.0.1
